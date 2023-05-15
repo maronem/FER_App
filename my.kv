@@ -1,0 +1,27 @@
+<MyGridLayout>
+
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Username"
+                id: user
+            TextInput:
+                multiline:False
+
+            Label:
+                text: "Password"
+                id: pw
+            TextInput:
+                multiline: False
+
+        GridLayout:
+            cols: 1
+
+            Button:
+                text: "Login"
+                font_size: 32
